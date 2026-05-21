@@ -1,0 +1,19 @@
+# Mac
+.DS_Store
+
+# Python
+macroenv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
